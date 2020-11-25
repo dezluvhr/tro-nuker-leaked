@@ -37,8 +37,8 @@ from colorama import Fore, init
 start_time = datetime.datetime.utcnow()
 loop = asyncio.get_event_loop()
 
-token = ('NzQwMTA0ODkxMDg2OTMwMDEx.X6ipXQ.adhAyDwuS5_ozmikLm0Brg7_a2Q')
-password = ('getjackedson1')
+token = ('TOKEN')
+password = ('PW')
 prefix = ('.')
 
 
@@ -367,4 +367,4 @@ async def unbanll(ctx):
         except:
             pass
 
-Ohzey.run('TNzQwMTA0ODkxMDg2OTMwMDEx.X6ipXQ.adhAyDwuS5_ozmikLm0Brg7_a2Q', bot=False)
+Ohzey.run('TOKEN', bot=False)
